@@ -23,8 +23,7 @@
 9. Ofertas
 10. Testimonios
 10.1 Control deslizante de testimonios
-11. Tendencias
-12. Contacto
+11. Contacto
 13. Pie de página
 13.1 Pie de página - Acerca de
 13.2 Pie de página - Blog
@@ -1455,17 +1454,10 @@ section
 .offers_price
 {
 	display: inline-block;
-	font-size: 36px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #eda84a;
 	line-height: 25px;
-}
-.offers_price span
-{
-	font-size: 14px;
-	font-weight: 400;
-	color: #929191;
-	margin-left: 12px;
 }
 
 .offers_rating i::before
@@ -1478,7 +1470,7 @@ section
 	font-size: 14px;
 	font-weight: 400;
 	color: #929191;
-	margin-top: 16px;
+	margin-top: 10px;
 }
 .offers_icons
 {
@@ -1663,76 +1655,9 @@ section
 	fill: url(#test_grad_next);
 }
 
-/*********************************
-11. Trending
-*********************************/
-
-.trending
-{
-	width: 100%;
-	padding-top: 105px;
-	padding-bottom: 50px;
-}
-.trending_container
-{
-	margin-top: 90px;
-}
-.trending_item
-{
-	margin-bottom: 55px;
-}
-.trending_image
-{
-	width: 82px;
-	height: 76px;
-	float: left;
-}
-.trending_image img
-{
-	width: 100%;
-}
-.trending_content
-{
-	padding-left: 94px;
-}
-.trending_title
-{
-	margin-top: -5px;
-}
-.trending_title a
-{
-	font-size: 16px;
-	font-weight: 700;
-	color: #2d2c2c;
-	text-transform: uppercase;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.trending_title a:hover
-{
-	color: #fa9e1b;
-}
-.trending_price
-{
-	font-size: 14px;
-	font-weight: 700;
-	color: #fa9e1b;
-	margin-top: 2px;
-}
-.trending_location
-{
-	font-size: 14px;
-	font-weight: 400;
-	color: #929191;
-	text-transform: uppercase;
-	margin-top: 5px;
-}
 
 /*********************************
-12. Contact
+11. Contact
 *********************************/
 
 .contact
@@ -1962,97 +1887,9 @@ section
 	color: #31124b;
 }
 
-/*********************************
-13.2 Footer - Blog
-*********************************/
-
-.footer_blog
-{
-	margin-top: 39px;
-}
-.footer_blog_item
-{
-	margin-bottom: 21px;
-}
-.footer_blog_item:last-child
-{
-	margin-bottom: 0px;
-}
-.footer_blog_image
-{
-	width: 60px;
-	height: 60px;
-	float: left;
-}
-.footer_blog_image img
-{
-	width: 100%;
-}
-.footer_blog_content
-{
-	padding-left: 81px;
-}
-.footer_blog_title
-{
-	margin-top: -4px;
-	padding-left: 1px;
-}
-.footer_blog_title a
-{
-	font-size: 14px;
-	font-weight: 400;
-	color: #FFFFFF;
-}
-.footer_blog_title a:hover
-{
-	color: #fa9e1b;
-}
-.footer_blog_date
-{
-	font-size: 12px;
-	font-weight: 400;
-	color: #fa9e1b;
-	margin-top: 7px;
-}
 
 /*********************************
-13.3 Footer - Tags
-*********************************/
-
-.footer_tags
-{
-	margin-top: 40px;
-}
-.tag_item
-{
-	height: 35px;
-	float: left;
-	margin-right: 9px;
-	margin-bottom: 9px;
-	border: solid 1px #fa9e1b;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.tag_item:hover
-{
-	background: #fa9e1b;
-}
-.tag_item a
-{
-	display: block;
-	font-size: 12px;
-	font-weight: 600;
-	color: #FFFFFF;
-	line-height: 33px;
-	padding-left: 25px;
-	padding-right: 25px;
-}
-
-/*********************************
-13.4 Footer - Contact Info
+13.2 Footer - Contact Info
 *********************************/
 
 .contact_info_list
@@ -2094,6 +1931,7 @@ section
 .copyright
 {
 	background: #1f0733;
+	
 }
 .copyright_content
 {
@@ -2104,41 +1942,4 @@ section
 	font-size: 12px;
 	font-weight: 600;
 	color: #685677;
-}
-.footer_nav_container
-{
-	height: 52px;
-}
-.footer_nav_list
-{
-	font-size: 0px;
-}
-.footer_nav_item
-{
-	display: inline-block;
-	margin-right: 40px;
-}
-.footer_nav_item a
-{
-	font-size: 12px;
-	font-weight: 600;
-	color: #685677;
-	text-transform: uppercase;
-	line-height: 2;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.footer_nav_item a:hover
-{
-	color: #FFFFFF;
-}
-
-.search_tabs_container ul i{
-    color: rgb(255, 29, 123);    
-}
-.sidebar ul a i{
-    margin-right: 16px;
 }
